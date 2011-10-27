@@ -1,0 +1,9 @@
+{
+  "name": "rona-time",
+  "version": "0.0.1",
+  "dependencies": {},
+  "subdomain": "rona-time",
+  "scripts": {
+    "start": "app.js"
+  }
+}
