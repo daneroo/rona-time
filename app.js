@@ -35,6 +35,7 @@ function parseTimeSheet(){
         produced:'Date inconnue',
         entries:[]
     };
+    //var allText = fs.readFileSync(path.join(__dirname, 'SEMAINE1.txt'), 'utf8'); //.toString()
     var allText = fs.readFileSync(path.join(__dirname, 'TEST.utf8.txt'), 'utf8'); //.toString()
     var lines = allText.split('\n');
     var dataRE = /(\d[\d\s]{12})([A-Z][\w\s]{20})([A-Z][\w\s]{13})([\*\s]{19})([\d\.\s]{13})\s{3}([\d\.\s]{13})\s{3}([\d\.\s]{13})\s{3}([\d\.\s]{13})\s{3}([\d\.\s]{13})\s{3}([\d\.\s]{13})\s{3}([\d\.\s]{13})\s{1}([\d\.\s]{10})/;
